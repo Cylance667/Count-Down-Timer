@@ -2,14 +2,14 @@ body {
     background-color: black;
 }
 
-#page {
+.page {
     min-height: 100vh;
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center;     /* vertical */
 }
 
-#div {
+.div {
     border: 2px solid black;
     padding: 20px;
     text-align: center;
@@ -19,15 +19,13 @@ body {
     height: 150px;
 }
 
-#days-div {
+.days-div {
     border: 2px solid black;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     border-radius: 10px;
     box-shadow: 2px 2px 50px green;
-    width: 450px;
+    width: 550px;
     height: 100px;
 }
 
@@ -36,7 +34,7 @@ h1, p {
     font-family: Arial, sans-serif;
 } 
 
-#text {
+.text {
     color: white;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom right, white, green);
@@ -46,14 +44,14 @@ h1, p {
     margin-bottom: 10px;
 }
 
-#date-input{
+.date-input{
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 22px;
     border-radius: 10px;
 }
 
-#EnterButton {
+.EnterButton {
     background-color: green;
     color: white;
     font-size: 14px;
